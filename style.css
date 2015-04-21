@@ -1,0 +1,214 @@
+body {
+	background : #6DD900 ;
+	margin: 4px 0 0 0 ;
+	overflow: hidden ;
+}
+a:link {
+	text-decoration: none ;
+	color: white ;
+}
+a:visited {
+	text-decoration: none ;
+	color: white ;
+}
+a:hover {
+	text-decoration: underline ;
+	color: white ;
+}
+a:active {
+	text-decoration: none ;
+	color: white ;
+}
+#stats , .point , #container , #lienzo {
+	margin: 0 auto ;
+	padding: 0 ;
+	/*overflow: hidden ;*/
+	position: relative ;
+	background: url("images/bg.png") #6DD900 ;
+}
+#container {
+	background: url("images/bit.png") repeat 0 0 #6DD900 ;
+	padding: 4px;
+}
+#stats div a , #stats div div {
+	float: right ;
+	margin: 3px ;
+	text-align: center ;
+}
+#stats div.right {
+	float: right ;
+}
+#stats div.left {
+	float: left ;
+}
+.bit , .eat , .obs , .head {
+	background: url('images/snake.gif') no-repeat 0 0 ;
+	position: absolute ;
+	z-index: 1 ;
+	width:16px;
+	height:16px;
+}
+.obs {
+	background-position: -48px 0;
+}
+.line {
+	background: url('images/snake.gif') repeat-x 0 -80px ;
+	clear:both;
+	height: 12px ;
+}
+.both {
+	clear:both;
+	float:none;
+	text-align:center;
+}
+.point .number {
+	background: url('images/number.gif') no-repeat ;
+	width: 16px ;
+	height: 20px ;
+	float: left ;
+}
+.number.zero {
+	background-position: 0 0 ;
+}
+.number.one {
+	background-position: -16px 0;
+}
+.number.two {
+	background-position: -32px 0;
+}
+.number.three {
+	background-position: -48px 0;
+}
+.number.four {
+	background-position: -64px 0;
+}
+.number.five {
+	background-position: 0 -20px;
+}
+.number.six {
+	background-position: -16px -20px;
+}
+.number.seven {
+	background-position: -32px -20px;
+}
+.number.eight {
+	background-position: -48px -20px;
+}
+.number.nine {
+	background-position: -64px -20px;
+}
+.eat.simple {
+	background-position: -18px -18px;
+}
+.eat.doble {
+	background-position: -18px -18px;
+}
+.bit.up , .bit.upup {
+	background-position: 0 -16px; 
+}
+.bit.do , .bit.dodo {
+	background-position: -32px -16px;
+}
+.bit.le , .bit.lele {
+	background-position: -16px -32px;
+}
+.bit.ri , .bit.riri {
+	background-position: -16px 0;
+}
+
+.bit.uple {
+	background-position: -32px 0;
+}
+.bit.upri {
+	background-position: 0 0;
+}
+.bit.dole {
+	background-position: -32px -32px;
+}
+.bit.dori {
+	background-position: 0 -32px;
+}
+
+.bit.leup {
+	background-position: 0 -32px;
+}
+.bit.riup {
+	background-position: -32px -32px;
+}
+.bit.ledo {
+	background-position: 0 0;
+}
+.bit.rido {
+	background-position: -32px 0;
+}
+
+.bit.do.e , .bit.ri.e {
+	background-position: -48px -16px;
+}
+.bit.le.e , .bit.up.e{
+	background-position: -48px -32px;
+}
+.bit.uple.e , .bit.leup.e {
+	background-position: -64px -32px;
+}
+.bit.upri.e , .bit.riup.e {
+	background-position: -64px -16px;
+}
+.bit.dole.e , .bit.ledo.e {
+	background-position: -64px -48px;
+}
+.bit.dori.e , .bit.rido.e  {
+	background-position: -64px -64px;
+}
+
+.bit.head.up { 
+	background-position: -48px -48px; 
+}
+.bit.head.do {
+	background-position: -16px -48px; 
+}
+.bit.head.le {
+	background-position: -32px -48px; 
+}
+.bit.head.ri {
+	background-position: 0 -48px; 
+}
+
+.bit.butt.up {
+	background-position: -48px -64px; 
+}
+.bit.butt.do {
+	background-position: -16px -64px; 
+}
+.bit.butt.le {
+	background-position: -32px -64px; 
+}
+.bit.butt.ri {
+	background-position: 0 -64px; 
+}
+
+.bit.head.up.ss {
+	background-position: -96px -48px; 
+}
+.bit.head.do.ss {
+	background-position: -96px -32px; 
+}
+.bit.head.le.ss {
+	background-position: -96px -16px; 
+}
+.bit.head.ri.ss {
+	background-position: -96px 0; 
+}
+
+.bit.up.open {
+	background-position: -80px -32px; 
+}
+.bit.do.open {
+	background-position: -80px -16px; 
+}
+.bit.le.open {
+	background-position: -64px 0; 
+}
+.bit.ri.open {
+	background-position: -80px 0; 
+}
