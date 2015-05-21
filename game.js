@@ -6,8 +6,8 @@ function Iniciar(obj,max){
 	this.direc 	= 6 ; //direccion down
 	this.point 	= 0 ; //puntaje
 	this.size 	= 16 ; //tamaño del bit
-	this.width 	= this.size*18 ; //lienzo ancho
-	this.height = this.size*19 ; //lienzo alto
+	this.width 	= this.size*32 ; //lienzo ancho
+	this.height = this.size*20 ; //lienzo alto
 	this.anim   = 0	; 
 	this.fruit 	= {
 		size : 16 , //tamaño
@@ -52,7 +52,7 @@ Iniciar.prototype = {
 	Movs : {
 		pos : Array( 8 , 2 , 4 , 6 ) ,
 		opp : Array( 2 , 8 , 6 , 4 ) ,
-		key : Array( 84, 86, 70, 72, 13) 
+		key : Array( 38, 40, 37, 39, 13) 
 	} ,
 	numbers : ['zero','one','two','three','four','five','six','seven','eight','nine'] ,
 	interval : null ,
